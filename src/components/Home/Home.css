@@ -1,0 +1,139 @@
+.note-app-body {
+  background-color: var(--veryDarkBackgroundColor);
+  height: 100vh;
+  max-width: 100%;
+}
+.title {
+  background-color: var(--darkColor);
+}
+
+/* this is left div for writing notes and adding it  */
+
+.note-app-wrapper {
+  /* height: inherit; */
+  height: 93vh;
+}
+
+.add-note-container {
+  margin-top: 2rem;
+}
+
+.note-form {
+  width: 30rem;
+  margin: auto;
+  background-color: var(--darkColor);
+  padding-top: 1rem;
+  border-radius: 1rem;
+}
+.inputField {
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+}
+.home-inputField {
+  padding: 0.2rem 1rem;
+  background-color: var(--darkColor);
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.home-inputField::placeholder {
+  color: rgba(255, 255, 255, 0.35);
+}
+#note-title {
+  font-size: 1.6rem;
+  border-radius: 1rem 1rem 0 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.336);
+}
+
+#note-content {
+  height: 20rem;
+  resize: none;
+}
+
+#add-note-btn {
+  background-color: var(--lightDarkColor);
+  padding: 0.4rem;
+  font-size: 1.4rem;
+  border: 1px solid var(--lightDarkColor);
+  border-radius: 0 0 1rem 1rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#add-note-btn:hover {
+  background-color: var(--lightColor);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* right side div  */
+.right-div {
+  overflow-x: hidden;
+}
+.right-div h1 {
+  color: var(--lightColor);
+  padding-left: 1rem;
+}
+
+.addnoteIcon {
+  display: none !important;
+}
+
+.closeNoteIcon {
+  display: none !important;
+}
+.h-100 {
+  height: 100%;
+}
+@media (max-width: 1200px) {
+  .note-form {
+    width: 25rem;
+  }
+}
+@media (max-width: 768px) {
+  .note-form {
+    width: 20rem;
+  }
+  #note-title {
+    font-size: 1.4rem;
+  }
+  #note-content {
+    height: 19rem;
+  }
+  .right-div h1 {
+    padding-left: 2.6rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .left-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* display: none; */
+    z-index: 1;
+    backdrop-filter: brightness(50%);
+  }
+  .add-note-container {
+    position: relative;
+  }
+  .note-form {
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  .addnoteIcon {
+    font-size: 2.4rem !important;
+    color: white;
+    display: inline-block !important;
+  }
+
+  .closeNoteIcon {
+    position: absolute;
+    top: -12px;
+    right: 12px;
+    font-size: 3rem !important;
+    color: white;
+    display: inline-block !important;
+  }
+}
