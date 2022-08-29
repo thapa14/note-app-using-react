@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/note-app-using-react/static/css/main.363541e6.css",
-    "main.js": "/note-app-using-react/static/js/main.65ba912d.js",
+    "main.css": "/note-app-using-react/static/css/main.fcf15af1.css",
+    "main.js": "/note-app-using-react/static/js/main.fb797349.js",
     "index.html": "/note-app-using-react/index.html",
-    "main.363541e6.css.map": "/note-app-using-react/static/css/main.363541e6.css.map",
-    "main.65ba912d.js.map": "/note-app-using-react/static/js/main.65ba912d.js.map"
+    "main.fcf15af1.css.map": "/note-app-using-react/static/css/main.fcf15af1.css.map",
+    "main.fb797349.js.map": "/note-app-using-react/static/js/main.fb797349.js.map"
   },
   "entrypoints": [
-    "static/css/main.363541e6.css",
-    "static/js/main.65ba912d.js"
+    "static/css/main.fcf15af1.css",
+    "static/js/main.fb797349.js"
   ]
 }
