@@ -20,6 +20,7 @@
 .notes > p {
   height: 13rem;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .details-menu-section {
@@ -49,12 +50,6 @@
   color: rgba(255, 255, 255, 0.75);
 }
 
-.overflowx {
-  overflow-x: hidden;
-}
-.overflow {
-  overflow: hidden;
-}
 ::-webkit-scrollbar {
   width: 5px;
 }

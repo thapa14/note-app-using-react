@@ -15,19 +15,7 @@ function Cards({ elem, changeNoteIndex }) {
         <div id="notes-wrapper">
           <div className="notes">
             <h4>{title}</h4>
-            <p
-              id="note-content-id"
-              onClick={() => {
-                document
-                  .getElementById("note-content-id")
-                  .classList.add("overflowx");
-                document
-                  .getElementById("note-content-id")
-                  .classList.remove("overflow");
-              }}
-            >
-              {content}
-            </p>
+            <p id="note-content-id">{content}</p>
           </div>
           <div className="details-menu-section d-flex justify-content-end align-items-center">
             <MoreHorizIcon
