@@ -25,7 +25,9 @@
   background-color: var(--lightDarkColor);
   padding: 0.4rem 0.8rem;
 }
-
+#note-title-update {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.33);
+}
 #note-content-update {
   height: 10rem;
   resize: none;

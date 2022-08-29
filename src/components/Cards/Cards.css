@@ -21,6 +21,7 @@
   height: 13rem;
   margin: 0;
   overflow-x: hidden;
+  word-break: break-word;
 }
 
 .details-menu-section {
@@ -48,11 +49,4 @@
   font-size: 1.4rem;
   padding: 0.4rem 1.8rem;
   color: rgba(255, 255, 255, 0.75);
-}
-
-::-webkit-scrollbar {
-  width: 5px;
-}
-::-webkit-scrollbar-thumb {
-  background-color: gainsboro;
 }
